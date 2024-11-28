@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Customize Mason plugins
 
@@ -12,6 +12,7 @@ return {
       ensure_installed = {
         "lua_ls",
         -- add more arguments for adding more language servers
+        "clangd",
       },
     },
   },
@@ -33,6 +34,8 @@ return {
       ensure_installed = {
         "python",
         -- add more arguments for adding more debuggers
+        "c",
+        "cpp",
       },
     },
   },

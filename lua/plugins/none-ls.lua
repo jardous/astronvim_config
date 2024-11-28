@@ -19,6 +19,11 @@ return {
       -- Set a formatter
       -- null_ls.builtins.formatting.stylua,
       -- null_ls.builtins.formatting.prettier,
+      -- https://github.com/nvimtools/none-ls.nvim/blob/main/doc/BUILTINS.md
+      null_ls.builtins.diagnostics.cppcheck,
+      null_ls.builtins.diagnostics.gccdia,
+      null_ls.builtins.formatting.astyle,
+      null_ls.builtins.formatting.clang_format
     })
   end,
 }
