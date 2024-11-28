@@ -34,8 +34,8 @@ return {
       ensure_installed = {
         "python",
         -- add more arguments for adding more debuggers
-        "c",
-        "cpp",
+        "codelldb",
+        "cppdbg"
       },
     },
   },
